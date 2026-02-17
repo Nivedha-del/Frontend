@@ -1,0 +1,48 @@
+.scenario{
+    height: 680px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+    font-family: sans-serif;
+}
+.first-scenario{
+  height: 480px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    line-height: 25px;
+    background-color: rgb(178 244 244);
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.learn-btn{
+   background-color: black;
+    color: white;
+    padding: 20px 80px;
+    border-radius: 30px;
+    border: none;
+}
+.second-scenario{
+height: 480px;
+    width: 300px;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.second-btn{
+background-color: #dc0666;
+    color: white;
+    padding: 20px 80px;
+    border-radius: 30px;
+    border: none;
+}

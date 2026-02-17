@@ -1,0 +1,45 @@
+.container{
+    /* height: 550px; */
+    width: 100%;
+   background-image: url(../Images/sketches.webp);
+   background-size: cover;
+   display: flex;
+   align-items: center;
+}
+.inner-container {
+    height: 400px;
+    width: 430px;
+    background-color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 30px;
+    text-align: center;
+    color: #350788;
+    line-height: 29px;
+    font-family: poppins;
+    margin-left: 40%;
+    margin-right: 25%;
+    border:none;
+    border-radius: 40px;
+    align-items: center;
+}
+.view-btn{
+    height: 46px;
+    width: 138px;
+    border: none;
+    border-radius: 36px;
+    background-color: #f40687;
+    color: white;
+    font-family: Baloo2,sans-serif;
+    letter-spacing: 2px;
+}
+.num{
+    height: 61px;
+    width: 51px;
+    border: none;
+    border-radius: 15px;
+    background-color: #f5dd0961;
+    color: #350788;
+    font-family: poppins;
+    font-weight: 500
+}

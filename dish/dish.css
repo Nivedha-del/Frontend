@@ -1,0 +1,43 @@
+
+.inner-container2{
+    margin-top: 10%;
+    background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/reservation-bg.jpg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.container4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.heading3{
+    font-family:"playfair Display",serif;
+    color: white;
+    font-size: 55px;
+     font-weight: 700px;
+}
+.content4{
+   font-family: "roboto",sans-serif;
+   color: white;
+   font-size: 32px;
+   font-weight: 100px;
+}
+.btn2{
+    background-color: #ffb606;
+    border:1px solid #ffb606 ;
+    padding: 15px 30px;
+    font-family: roboto,sans-serif;
+    font-weight: 14px;
+    color: #131230;
+}
+.btn2:hover{
+    background: transparent;
+    cursor: pointer;
+    color: #ffb606;
+}

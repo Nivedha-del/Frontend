@@ -1,0 +1,18 @@
+p{
+    /* border-width: 10px;
+    border-style: dashed;
+    border-radius: 3px;
+    border-color: brown; */
+
+
+    /* border: 20px dotted  blue; */
+
+    border-top: 2px solid yellow;
+    border-bottom: 2px dashed green;
+    border-left: 2px dotted pink;
+    border-right: 2px dotted  blue;
+
+    
+
+
+}

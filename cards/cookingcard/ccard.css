@@ -1,0 +1,77 @@
+.main{
+    background: linear-gradient(to right, #56f3f3, #9a6de9);
+    /* height: 680px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+    font-family:poppins;
+    text-align:left;
+}
+.card{
+    width: 350px;
+    border-radius: 20px;
+    background-color: white;
+}
+.tech-btn{
+    background-color:#0c9ee9;;
+    color: white;
+    padding: 11px 54px;
+    border-radius: 30px;
+    margin-top: 13px;
+    border: none;
+}
+.food-btn{
+    background-color: goldenrod;
+    color: white;
+    padding: 11px 54px;
+    border-radius: 30px;
+    margin-top: 13px;
+    border: none;
+}
+.car-btn{
+    background-color: orangered;
+    color: white;
+    padding: 11px 54px;
+    border-radius: 30px;
+    margin-top: 13px;
+    border: none;
+}
+.card1{
+    line-height: 22px;
+    padding-left: 15px;
+}
+.img{
+    width:100%;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+}
+.logo1{
+    height: 71px;
+    width:65px;
+}
+.container{
+    display: flex;
+    margin-top: 30px;
+    padding: 4px;
+}
+.logo2{
+    height: 60px;
+    width:70px;
+}
+.logo3{
+    height: 55px;
+    width:70px;
+}
+
+@media(max-width:1000px){
+    .main{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:700px){
+    .card{
+        width: 450px;
+    }
+}

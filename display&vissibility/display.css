@@ -1,0 +1,139 @@
+body{
+    background: linear-gradient(to right, #9EE7F9, #647DEE);
+    
+}
+section{
+    width: 75%;
+    margin: auto;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card1{
+    height: 450px;
+    width: 300px;
+    border-radius: 22px;
+    background-color: aliceblue;
+}
+.img11{
+     width: 100%;
+     border-top-left-radius: 22px;
+     border-top-right-radius: 22px;
+     height: 45%;
+}
+
+.button1{
+    
+    padding-left: 3px;
+    padding-right: 3px;
+    background: linear-gradient(to bottom,rgb(16, 136, 255), rgb(137, 196, 255));
+    color: aliceblue;
+    border-radius: 20px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    text-align:center;
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+
+}
+
+.button2{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: linear-gradient(to bottom,rgb(255, 227, 66), rgb(204, 167, 4));
+    color: aliceblue;
+    border-radius: 20px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    text-align:justify;
+   font-family: "Poppins", sans-serif;
+    font-size: 11px;
+}
+
+.button3{
+    padding: 5px;
+    background: linear-gradient(to bottom,rgb(201, 16, 16), rgba(238, 15, 15, 0.911));
+    color: aliceblue;
+    border-radius: 20px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    text-align:justify;
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+}
+
+h2{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-size: 20px;
+    margin-right:32px ;
+}
+
+.fontA{
+    font-family: "Poppins", sans-serif;
+    font-size: small;
+    margin-top: 0px;
+    padding: 10px;
+    color: gray;
+
+}
+
+.fontB{
+    font-family: "Poppins", sans-serif;
+    font-size: small;
+    margin-top: 0px;
+    padding: 10px;
+    color: gray;
+
+}
+.fontC{
+    font-family: "Poppins", sans-serif;
+    font-size: small;
+    margin:0px;
+    padding: 10px;
+    padding-bottom: 12px;
+    color: gray;
+
+}
+
+.font1{
+     font-family: "Poppins", sans-serif;
+    font-size: small;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.font1 div{
+    font-family: "Poppins", sans-serif;
+    color: gray;
+    
+}
+
+
+.img12{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.flexbox1{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    padding-left: 10px;
+}

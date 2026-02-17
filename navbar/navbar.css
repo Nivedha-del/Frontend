@@ -1,0 +1,24 @@
+body{
+    margin: o;
+    padding: o;
+}
+.main-container{
+   height: 70px;
+   width: 100%;
+   background-color: aquamarine;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   font-family: serif;
+
+}
+.inner-container2{
+          color:green;
+}
+div ul{
+    list-style-type: none;
+}
+ul li{
+    display:inline;
+    padding: 10px;
+}

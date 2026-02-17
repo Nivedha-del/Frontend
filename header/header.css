@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    height: 50px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+div ul{
+    list-style-type: none;
+    display: flex;
+}
+ul li{
+    padding: 10px;
+}
+.inner-container{
+    letter-spacing: 3px;
+}

@@ -1,0 +1,682 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+/* FRONT PAGE */
+
+.main-container {
+    justify-items: center;
+    background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/banner-bg.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.box {
+    width: 80%;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: roboto;
+    position: absolute;
+    top: 30px;
+    color: #131230;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+div .nav1 {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    padding: 15px;
+}
+
+.icon {
+    padding: 20px 25px;
+    background-color: #ffb606;
+    border-radius: 3px;
+    position: relative;
+    display: none;
+}
+
+.icon1 {
+    font-size: 25px;
+    font-weight: lighter;
+    color: white;
+    position: absolute;
+    left: 30%;
+    top: 15%;
+}
+
+.icon2{
+    font-size: 14px;
+}
+
+.box1 {
+    height: 900px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    line-height: 1px;
+    flex-wrap: wrap;
+
+}
+
+.line1 {
+    font-family: roboto;
+}
+
+.line2 {
+    font-family: "Playfair Display", serif;
+    font-size: 65px;
+    line-height: 80px;
+}
+
+/* DISH */
+
+.dish {
+    margin-top: 5%;
+    display: flex;
+    gap: 40px;
+    width: 85%;
+    max-width: 1200px;
+    align-items: center;
+    margin: auto;
+}
+
+.img1 {
+    width: 650px;
+}
+
+.content1 {
+    line-height: 25px;
+    font-family: "roboto", sans-serif;
+    color: gray;
+}
+
+.heading1 {
+    line-height: 40px;
+    font-family: "Playfair Display",serif;
+    color: #131230;
+}
+
+.btn1 {
+    background-color: #ffb606;
+    border: 1px solid #ffb606;
+    font-weight: bold;
+    padding: 15px 30px;
+    font-family: roboto, sans-serif;
+    color: #131230;
+}
+
+.btn1:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+/* MENU */
+
+.menu {
+    margin-top: 5%;
+    background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/food-bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.container3 {
+    width: 70%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.heading2 {
+    font-family: "Playfair Display";
+    color: #131230;
+}
+
+.content2 {
+    line-height: 25px;
+    font-family: "roboto", sans-serif;
+    color: gray;
+}
+
+.inner-container1 {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 40px;
+    justify-content: center;
+}
+
+.menu1 {
+    background-color: whitesmoke;
+}
+
+.menu1:hover {
+    cursor: pointer;
+    background-color: #ffb606;
+}
+
+.img2 {
+    width: 100%;
+}
+
+.dish1 {
+    font-family: "playfair Display", serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #131230;
+    word-spacing: 50px;
+}
+.dish2 {
+    word-spacing: 80px;
+}
+
+.dish3{
+     word-spacing: 90px;
+}
+
+.dish4{
+     word-spacing: 120px;
+}
+
+.dish5{
+     word-spacing: 90px;
+}
+.price1 {
+    color: #ffb606;
+    font-family: "roboto", sans-serif;
+}
+
+.content3 {
+    font-family: "roboto", sans-serif;
+    color: gray;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+/* RESERVATION */
+
+
+.inner-container2 {
+    margin-top: 10%;
+    background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/reservation-bg.jpg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.container4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.heading3 {
+    font-family: "playfair Display", serif;
+    color: white;
+    font-size: 45px;
+    font-weight: 700px;
+}
+
+.content4 {
+    font-family: "roboto", sans-serif;
+    color: white;
+    font-size: 25px;
+
+}
+
+.btn2 {
+    background-color: #ffb606;
+    border: 1px solid #ffb606;
+    padding: 15px 30px;
+    font-family: roboto, sans-serif;
+    font-weight: 14px;
+    color: #131230;
+}
+
+.btn2:hover {
+    background: transparent;
+    cursor: pointer;
+    color: #ffb606;
+}
+
+/* SPECIAL DISH */
+
+.special-dish {
+    margin-top: 5%;
+
+
+}
+
+.container5 {
+    justify-items: center;
+    line-height: 40px;
+}
+
+.heading4 {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    font-weight: 700px;
+}
+
+.content5 {
+    font-family: "roboto", sans-serif;
+    color: gray;
+}
+
+.inner-container3 {
+    width: 60%;
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    gap: 60px;
+}
+
+.SD1 {
+    font-family: "Playfair Display", serif;
+    font-size: 60px;
+    color: #131230;
+}
+
+.line {
+    height: 2px;
+    width: 200px;
+    display: inline-block;
+    background-color: #131230;
+}
+
+.content6 {
+    font-family: "roboto", sans-serif;
+    color: gray;
+    line-height: 23px;
+}
+
+.container5 {
+    font-family: "roboto", sans-serif;
+    font-size: 14px;
+    color: #131230;
+}
+
+.container5:hover {
+    cursor: pointer;
+}
+
+.arrow:hover {
+    cursor: pointer;
+    color: #ffb606;
+}
+
+.img3 {
+    height: 400px;
+    width: 450px;
+}
+
+/* CUSTOMER */
+
+.inner-container4 {
+    margin-top: 10%;
+    background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/testimonial-bg.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.container6 {
+    justify-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading6 {
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    color: white;
+}
+
+.content7 {
+    font-family: "roboto", sans-serif;
+    color: white;
+}
+
+/* FOOD UPDATE */
+
+.height {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.heading7 {
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    color: #131230;
+}
+
+.content8 {
+    font-family: "roboto", sans-serif;
+    color: gray;
+}
+
+.inner-container5 {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 5%;
+}
+
+.updates {
+      width: 350px;
+    background-color: whitesmoke;
+    line-height: 50px;
+}
+
+.updates:hover {
+    background-color: #fff;
+}
+
+.updates1 {
+    display: flex;
+    gap: 80px;
+    
+    
+}
+
+.user {
+    color: gray;
+}
+
+.heading8 {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    color: #131230;
+}
+
+.content9 {
+    font-family: "roboto", sans-serif;
+    color: gray;
+    line-height: 20px;
+}
+.container5{
+    padding-top: 10px;
+}
+
+.container7 {
+    padding: 20px;
+}
+
+
+/* <!-- BOOK YOUR TABLE --> */
+
+.inner-container6 {
+    margin-top: 10%;
+    background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/table-bg.jpg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+}
+
+.table {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading9 {
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    color: white;
+}
+
+.content14 {
+    font-family: "roboto", sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+.t-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 5%;
+    position: relative;
+}
+
+input[type] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.t-box1 {
+    color: gray;
+    position: absolute;
+    top: 33%;
+    left: 3%;
+}
+
+.t-box2 {
+    color: gray;
+    position: absolute;
+    top: 33%;
+    left: 38%;
+}
+
+.t-box3 {
+    color: gray;
+    position: absolute;
+    top: 33%;
+    left: 73%;
+}
+
+/* FOOTER */
+
+.f-container {
+    width: 100%;
+    background-color: #131230;
+}
+
+.f-container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    justify-content: center;
+    padding: 115px;
+}
+
+.content10 {
+    font-family: "roboto", sans-serif;
+    color: gray;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.content11 {
+    font-family: "roboto", sans-serif;
+    color: gray;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+.content12 {
+    font-family: "roboto", sans-serif;
+    color: gray;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+.heading10 {
+    font-family: "Playfair Display", serif;
+    color: #ffb606;
+}
+
+/* <!-- COPYRIGHT --> */
+
+.box2 {
+    padding: 30px;
+    background-color: #0d0d27;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.content13 {
+    font-family: "roboto", sans-serif;
+    color: white;
+}
+
+.nav2 {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+/* MEDIA */
+
+@media(max-width:1200px) {
+    .img1 {
+        width: 450px;
+    }
+}
+
+/* MENU */
+
+@media(max-width:1100px) {
+    .inner-container1 {
+        grid-template-columns: repeat(2, 330px);
+    }
+}
+
+/* DISH */
+
+@media(max-width:1000px) {
+
+    .icon {
+        display: block;
+    }
+
+    .nav1 .icon2 {
+        display: none;
+    }
+}
+
+/* FRONT PAGE */
+
+@media(max-width:950px) {
+    .img1 {
+        width: 350px;
+    }
+}
+
+@media(max-width:860px) {
+
+    /* DISH */
+
+    .dish {
+        flex-direction: column;
+
+    }
+
+    /* SPECIAL DISH */
+
+    .img3 {
+        height: 300px;
+        width: 350px;
+    }
+}
+
+/* SPECIAL DISH */
+
+@media(max-width:750px) {
+
+    .img3 {
+        height: 200px;
+        width: 250px;
+    }
+
+}
+
+@media(max-width:700px) {
+
+    /* MENU */
+
+    .inner-container1 {
+        grid-template-columns: repeat(1, 330px);
+    }
+
+    /* COPYRIGHT */
+
+    .f-container1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media(max-width:630px) {
+
+    /* FOOD UPDATE */
+
+    .t-box {
+        display: block;
+    }
+
+    input[type] {
+        padding: 20px 70px;
+    }
+
+    .t-box1 {
+        position: absolute;
+        top: 10%;
+        left: 5%;
+    }
+
+    .t-box2 {
+        position: absolute;
+        top: 47%;
+        left: 5%;
+    }
+
+    .t-box3 {
+        color: gray;
+        position: absolute;
+        top: 83%;
+        left: 5%;
+    }
+
+    .inner-container5 {
+        flex-wrap: wrap;
+    }
+
+    /* SPECIAL DISH */
+
+    .inner-container3 {
+        flex-direction: column;
+
+    }
+}

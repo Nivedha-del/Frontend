@@ -1,0 +1,35 @@
+* {
+  font-family: poppins;
+}
+* .main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 700px;
+}
+* .main-container section {
+  text-align: center;
+  width: 250px;
+  border: solid black;
+  padding: 30px;
+}
+* .main-container article {
+  text-align: center;
+  width: 250px;
+  border: none;
+  padding: 30px;
+  background-color: rgb(228, 5, 80);
+  color: white;
+}
+* .read-btn, * .btn {
+  padding: 15px 85px;
+  border-radius: 25px;
+  background-color: white;
+  color: rgb(231, 46, 77);
+  border: none;
+}
+* .btn {
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=scard.css.map */

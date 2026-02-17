@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul{
+   display: flex; 
+   gap: 50px;
+}
+
+li:hover{
+    text-decoration: black line-through;
+}
+
+button{
+    font-size: 15px;
+    padding: 21px 45px;
+    background-color: rgb(241, 69, 69);
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar{
+    color: white;
+    background-color: rgb(124, 32, 32);
+    padding: 15px;
+    display: flex;
+    position: sticky;
+    top: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section{
+    background-image: url("https://preview.colorlib.com/theme/beko/img/banner_bg.png");
+}

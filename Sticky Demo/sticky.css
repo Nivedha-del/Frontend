@@ -1,0 +1,30 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.main-container{
+    /* background-color: blue; */
+    background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/welcome-bg.png);
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 10%;
+}
+.sec-container{
+    background-color: red;
+}
+.f-container{
+    background-color: brown;
+}
+
+.inner-container2{
+          color:green;
+}
+div ul{
+    list-style-type: none;
+}
+ul li{
+    display:inline;
+    padding: 10px;
+}

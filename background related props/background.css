@@ -1,0 +1,30 @@
+.container{
+    /* height: 500px;
+    width: 700px; */
+    /* border: 1px solid red; */
+    /* background-image:url(../Images/dark.jpeg); */
+
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+        /* background-repeat: repeat-y; */
+
+        /* background-position-x: center; */
+        /* background-position-x: left; */
+        /* background-position-x: right; */
+
+        /* background-position-y: center; */
+        /* background-position-y: top; */
+        /* background-position-y: bottom; */
+
+        /* background-position: center top; */
+        /* background-position: center; */
+
+        /* background-size: auto; */
+        /* background-size: contain; */
+        /* background-size: cover; */
+
+        /* background-attachment: fixed; */
+        /* background-attachment: scroll; */
+
+        background: url(../Images/forest.jpg)no-repeat center / contain scroll lightgray;
+}

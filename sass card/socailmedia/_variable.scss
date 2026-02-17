@@ -1,0 +1,17 @@
+// VARIABLE
+
+$family:poppins;
+$center:center;
+$width:250px;
+$padding:30px;
+$br-radius:25px;
+
+
+// MIXIN
+
+@mixin flexprop{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}

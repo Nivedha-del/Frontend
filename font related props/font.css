@@ -1,0 +1,21 @@
+p{
+    /* font-family: arial; */
+    /* font-size: x-lare; */
+    /* font-weight:bold; */
+    /* font-style:italic; */
+    /* font-variant:smalllcaps; */
+
+    font: italic bolder large/Roboto;
+
+
+     /* font-family: 'Roboto';font-size: 22px; */
+}
+
+section{
+    font-style: oblique;
+    
+    
+    font-family: 'Roboto';font-size: 22px;
+
+
+}

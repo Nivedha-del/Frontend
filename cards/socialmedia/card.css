@@ -1,0 +1,41 @@
+*{
+    font-family: Poppins;
+}
+section{
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    border: solid black;
+    padding: 30px;
+}
+button{
+    padding: 15px 85px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+article{
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    border: none;
+    padding: 30px;
+    background-color:rgb(228, 5, 80);
+    color: white;
+}
+.read-btn{
+   padding: 15px 85px;
+    border-radius: 25px;
+    background-color:white;
+    color:rgb(231, 46, 77);
+    border: none;
+}
+.main{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}

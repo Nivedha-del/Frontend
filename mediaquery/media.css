@@ -1,0 +1,17 @@
+.container{
+    padding: 70px;
+    width: 70%;
+    background-color: black;
+    margin: auto;
+}
+.content{
+    color: white;
+}
+@media(max-width:900px){
+    .container{
+        background-color: red;
+    }
+    .content{
+        color: yellow;
+    }
+}

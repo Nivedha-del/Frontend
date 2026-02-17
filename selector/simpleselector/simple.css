@@ -1,0 +1,34 @@
+/* class */
+.name{
+    background-color: brown;
+    color: white;
+}
+
+/* element */
+p{
+    background-color: yellowgreen;
+    color: whitesmoke;
+}
+
+/* id */
+#age{
+    color: blue;
+    background-color: red;
+}
+
+/* universal group */
+*{
+    
+   
+    /* color: aqua; */
+}
+
+/* group selector */
+.resetbtn{
+   background-color: red;
+    color: white;
+      padding: 10px 20px;
+       border-radius: 5px;
+
+
+}

@@ -1,0 +1,37 @@
+p{
+    color: blue;
+}
+
+// NESTED
+
+.main-container{
+   height: 70px;
+   width: 100%;
+   background-color: aquamarine;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   font-family: serif;
+
+}
+nav{
+    ul{
+        display:flex;
+        gap: 20px;
+
+         li{
+        list-style-type: none;
+    }
+    }
+
+   
+}
+
+
+// VARIABLE
+
+$height:100px;
+$width:100px;
+$bg-color:blue;
+$color:white;
+

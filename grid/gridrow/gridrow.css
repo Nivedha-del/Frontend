@@ -1,0 +1,32 @@
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.box {
+    height: 500px;
+    /* width: 100%; */
+    /* border: 1px solid blue; */
+}
+.box1 {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-image: url(https://preview.colorlib.com/theme/foodeiblog/img/hero/hero-1.jpg);
+}
+
+.box2 {
+    background-image: url(https://preview.colorlib.com/theme/foodeiblog/img/hero/hero-2.jpg);
+    background-repeat: no-repeat;
+}
+
+.box3 {
+   
+    background-image: url(https://preview.colorlib.com/theme/foodeiblog/img/hero/hero-3.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+.box4 {
+    background-image: url(https://preview.colorlib.com/theme/foodeiblog/img/hero/hero-4.jpg);
+     grid-row: span 2;
+}

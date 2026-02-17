@@ -1,0 +1,29 @@
+/* descendant combinator */
+
+div p{
+    background-color: violet;
+    color: whitesmoke;
+    font-family: serif;
+}
+
+/* child combinator */
+
+/* div >  p{
+    font-style: italic;
+    background-color: brown;
+} */
+
+/* next-sibling combinator/adjacent */
+
+/* div + p{
+    background-color: black;
+    color: whitesmoke;
+} */
+
+/* subsequent-sibling combinator/general */
+
+/* div ~ p{
+    background-color: red;
+} */
+
+
