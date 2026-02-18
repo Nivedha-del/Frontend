@@ -15,6 +15,7 @@ body {
     list-style-type: none;
     display: inline;
     padding: 20px;
+    position: relative;
 }
 
 .nav-inner-container {
@@ -26,16 +27,30 @@ body {
 
 .h-home{
     color: #f4952f;
-    text-decoration: underline 2px solid #f4952f;
-      text-underline-offset: 16px;
+}
+
+.info::after{
+    content: "";
+     position: absolute;
+     left: 0;
+    bottom: 5px;
+    width: 0;
+    height:1px;
+     background-color: #f4952f;
+      transition: width 0.3s ease;
 }
 
 .info:hover {
     cursor: pointer;
     color: #f4952f;
-    text-decoration:  underline 2px solid #f4952f;
-    text-underline-offset: 16px;
+}
 
+.info:hover::after{
+    width: 100%
+}
+
+.h-home::after{
+    width: 70%;
 }
 
 /* HEADING */
