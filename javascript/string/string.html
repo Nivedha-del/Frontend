@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        let content = "welcome back home welcome"
+
+        console.log(content);
+        console.log(content.length);
+
+        console.log(content.indexOf("H"));
+        console.log(content.indexOf("e"));
+        console.log(content.lastIndexOf("e"));
+
+        console.log(content.includes("w"));
+        console.log(content.includes("n"));
+
+        console.log(content.startsWith("e"));
+        console.log(content.startsWith("w"));
+        console.log(content.endsWith("e"));
+
+        console.log(content.charAt(1));
+        console.log(content.toLowerCase());
+        console.log(content.toUpperCase());
+
+        var trimmed = content.trim()
+        var trimmred = content.trimRight()
+        var trimred = content.trimLeft()
+
+        console.log(trimmed);
+        console.log(trimmred);
+        console.log(trimred);
+
+        console.log(content.slice(2, 4))
+        console.log(content.slice(4))
+
+        console.log(content.replace("welcome", "hello"))
+        console.log(content.replaceAll("welcome", "hello"))
+
+        const colleges = "ccet,igmc,mgmc,rgmc"
+
+        console.log(colleges.split(","));
+
+    </script>
+
+</body>
+
+</html>

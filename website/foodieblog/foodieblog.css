@@ -233,14 +233,17 @@ body {
 /* DISH */
 
 .main-container {
-    width: 80%;
+    width: 76%;
     display: flex;
     margin: auto;
 }
 
+.inner-container{
+    margin-top: 1%;
+}
 .img-content5 {
     text-align: center;
-    width: 88%;
+    width: 95%;
 
 }
 .bg-img{
@@ -296,7 +299,6 @@ body {
     font-family: "nunito sans", sans-serif;
     color: #444444;
     line-height: 23px;
-    /* width:350px; */
 }
 
 .a-content::after{
@@ -325,7 +327,6 @@ body {
 }
 
 .bg-img2 {
-    /* margin-top: 3%; */
     background-image: url(https://preview.colorlib.com/theme/foodeiblog/img/categories/categories-post/cp-2.jpg);
     height: 250px;
 }
@@ -410,14 +411,26 @@ body {
 }
 
 .container3{
-    margin-top: 20%;
+    margin-top: 10%;
 }
+
+.b-content::after{
+    content: "";
+    position: absolute;
+    left: 0%;
+    height:8px;
+    width: 20%;
+    bottom: 1px;
+    background: #ffbe7869; 
+}
+
 .btn{
 border: none;
   border-radius: 50%;
   font-size: 16px;
    padding: 15px 18px;
 }
+
 .btn:hover{
     background-color: #f4952f;
     color: #FFFFFF;
@@ -425,32 +438,52 @@ border: none;
 
 .container4{
    background-image: url(	https://preview.colorlib.com/theme/foodeiblog/img/sidebar/feature-post.jpg);
-   height: 200px;
+   height: 170px;
+   width: 95%;
+   background-repeat: no-repeat;
+    background-size: cover;
    position: relative;
+}
+
+.c-content::after{
+    content: "";
+    position: absolute;
+    left: 0%;
+    height:8px;
+    width: 28%;
+    bottom: 1px;
+    background: #ffbe7869; 
 }
 
 .content12{
      font-family: "Unna", serif;
     font-size: 18px;
     color: #FFFFFF;
+    width: 80%;
 }
 
 .box-content4{
     text-align: center;
       font-size: 26px;
-      font-weight: bold;
+      font-weight: 900;
     font-family: "nunito sans", sans-serif;
     color: #111111;
     width: 50%;
     height: 20%;
     background: #F5F5F5;
-    
+    line-height: 15px;
+    padding-top: 18px;
 
 }
 
 .bc-para{
     display: flex;
     gap: 10px;
+}
+
+.box-content5{
+    height: 50px;
+    width:70px;
 }
 
 .content13{
@@ -585,7 +618,6 @@ background-image: url(https://preview.colorlib.com/theme/foodeiblog/img/footer/i
     color: #444444;
     cursor: pointer;
 }
-
 
 
 
