@@ -260,14 +260,16 @@ body {
 .box-content1 {
     text-align: center;
       font-size: 26px;
-      font-weight: bold;
+     font-weight: 900;
     font-family: "nunito sans", sans-serif;
     color: #111111;
-   padding: 10px 20px;
-    background: #FFFFFF;
+    background: #F5F5F5;
     position: absolute;
     top: 3%;
     left: 1%;
+    width: 60px;
+    height:50px ;
+   line-height: 15px;
 }
 
 .content3 {
