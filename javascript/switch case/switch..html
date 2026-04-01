@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        // 1.Write a JavaScript program to check whether a number is even or odd using a switch statement.
+
+        let a = 7
+
+        switch (true) {
+            case (a % 2 == 0):
+                console.log("a is even num");
+                break;
+            case (a % 2 != 0):
+                console.log("a is a odd num");
+                break;
+            default:
+                console.log("default is working");
+        }
+
+        // 2.Write a JavaScript program to check whether a number is positive, negative, or zero using a switch statement. 
+
+        let b = 5
+
+        switch (true) {
+            case (b > 0):
+                console.log("b is +ve");
+                break;
+            case (b < 0):
+                console.log("b is -ve");
+                break;
+            case (b == 0):
+                console.log("b is zero");
+                break;
+            default:
+                console.log("default is working");
+        }
+
+        // 3.Create a simple calculator in JavaScript that performs addition, subtraction, multiplication, or division based on user input using switch.
+
+        // var c = 4, d = 5
+        // let e = prompt("Enter a operator:")
+
+        // switch (true) {
+        //     case (e == "+"):
+        //         console.log(c + d);
+        //         break;
+        //     case (e == "-"):
+        //         console.log(c - d);
+        //         break;
+        //     case (e == "*"):
+        //         console.log(c * d);
+        //         break;
+        //     case (e == "/"):
+        //         console.log(c / d);
+        //         break;
+        //     default:
+        //         console.log("default is working");
+        // }
+
+        // 4.Write a JavaScript program to check whether a given day is a weekday or weekend using switch.
+
+        let f = 4
+
+        switch (f) {
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+                console.log("weekday");
+                break;
+            case 6:
+            case 7:
+                console.log("weekend");
+            default:
+                console.log("default is working");
+        }
+
+        // 5.Write a JavaScript program to implement a grading system based on marks (A, B, C, D, Fail) using switch.
+
+        let g = 67
+
+        switch (true) {
+            case (g >= 90):
+                console.log("A Grade");
+                break;
+
+            case (g >= 80):
+                console.log("B Grade");
+                break;
+
+            case (g >= 70):
+                console.log("C Grade");
+                break;
+
+            case (g >= 50):
+                console.log("D Grade");
+                break;
+
+            case (g < 35):
+                console.log("fail");
+                break;
+            default:
+                console.log("default is working");
+
+        }
+
+        // 6.Write a JavaScript program to display the month name based on a given month number (1–12) using switch.
+
+        let h = 5
+
+        switch (h) {
+            case 1:
+                console.log("Jan");
+                break;
+            case 2:
+                console.log("feb");
+                break;
+            case 3:
+                console.log("march");
+                break;
+            case 4:
+                console.log("april");
+                break;
+            case 5:
+                console.log("may");
+                break;
+            case 6:
+                console.log("June");
+                break;
+            case 7:
+                console.log("July");
+                break;
+            case 8:
+                console.log("aug");
+                break;
+            case 9:
+                console.log("sep");
+                break;
+            case 10:
+                console.log("oct");
+                break;
+            case 11:
+                console.log("nov");
+                break;
+            case 12:
+                console.log("dec");
+                break;
+            default:
+                console.log("default is working");
+        }
+
+        // 7.)Write a JavaScript program to check whether a character is a vowel or consonant using switch.
+
+        let i = b
+
+        switch (true) {
+
+            case (i == "a" || i == "i" || i == "o" || i == "e" || i == "u"):
+                console.log("it is a vowel");
+                break;
+            default:
+                console.log("it is a constant");
+        }
+
+        //  8.Write a JavaScript program to print an action based on a traffic signal color (Red, Yellow, Green) using switch.
+
+        let j = "red"
+
+        switch (j) {
+            case "red":
+                console.log("stop");
+                break;
+            case "yellow":
+                console.log("get ready");
+                break;
+            case "green":
+                console.log("go");
+                break;
+            default:
+                console.log("default is working");
+        }
+
+        // 9.Write a JavaScript program to check whether a given year is a leap year using switch.
+
+        let k = 2024
+
+        switch (true) {
+            case (k % 4 == 0):
+                console.log("it is a leap year");
+                break;
+            case (k % 4 != 0):
+                console.log("not a leap year");
+                break;
+            default:
+                console.log("default is working");
+        }
+
+        // 10.Write a JavaScript program to categorize a person based on age group (Child, Teen, Adult, Senior) using switch.
+
+        let l = 7
+
+        switch (true) {
+            case (l >= 0 && l <= 12):
+                console.log("child");
+                break;
+            case (l >= 13 && l <= 19):
+                console.log("teen");
+                break;
+            case (l >= 20 && l <= 60):
+                console.log("adult");
+                break;
+            case (l >= 61):
+                console.log("senior");
+                break;
+            default:
+                console.log("default is working");
+        }
+
+        // 11.Write a JavaScript program to check whether a number lies between 1 and 10 using switch.
+
+        let m = 6
+
+        switch (true) {
+            case (m >= 1 && m <= 10):
+                console.log("lies btw 1 and 10");
+                break;
+            default:
+                console.log("default is working");
+        }
+
+        // 12.Write a JavaScript program to validate a username and password using switch.
+
+
+        let userName = "Nivedha"
+        let password = "nivedha@1019"
+
+        switch (true) {
+            case (userName == "Nivedha" && password == "nivedha@1019"):
+                console.log("username and password is crt");
+                break;
+            default:
+                console.log("username and password is wrong");
+        }
+
+        // 13.Write a JavaScript program to identify a shape name based on the number of sides using switch.
+
+        let n=4
+
+        switch(n){
+            case 0:
+                console.log("circle");
+                break;
+            case 3:
+                console.log("triangle");
+                break;
+            case 4:
+                console.log("square");
+                break;
+            default:
+                console.log("default is working");
+                 }
+
+        // 14.Write a JavaScript program to check whether a number is divisible by both 3 and 5 using switch.
+
+        let num=15
+
+        switch (true){
+            case (num%3==0 && num%5==0):
+                console.log("divisible by 3 & 5");
+                break;
+            case (num%3!=0 && num%5!=0):
+                console.log("not divisible by 3 & 5");
+                break;
+            default:
+                console.log("default is working");
+                }
+
+        // 15.Write a JavaScript program to classify a number as Positive Even, Positive Odd, Zero, or Negative using switch.
+
+        let p=-5
+
+        switch (true){
+            case (p>0 && p%2==0):
+                console.log("+ve & even");
+                break;
+            case (p<0 && p%2!=0):
+                console.log("-ve & odd");
+                break;
+            case (p==0):
+                console.log("zero");
+                break;
+            default:
+                console.log("default is working");
+              }
+           
+     </script>
+</body>
+
+</html>           
+                
+                
+                
+       
+                
+        
+                
+                
+                
+                
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
